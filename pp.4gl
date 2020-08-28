@@ -5,6 +5,14 @@ MAIN
    
    DISPLAY "Inicia prueba"
 
+   CALL saludo()
+   
    DISPLAY "Finaliza prueba"
 
 END MAIN
+
+FUNCTION saludo()
+
+   DISPLAY "HOLA"
+
+END FUNCTION 
